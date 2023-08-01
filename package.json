@@ -1,0 +1,22 @@
+{
+  "name": "authentication_project",
+  "version": "1.0.0",
+  "description": "Navigation bar with authentication",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinaaa96/Authentication_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinaaa96/Authentication_project/issues"
+  },
+  "homepage": "https://github.com/martinaaa96/Authentication_project#readme",
+  "dependencies": {
+    "express-handlebars": "^7.1.0"
+  }
+}
