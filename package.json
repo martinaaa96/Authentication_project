@@ -2,7 +2,7 @@
   "name": "authentication_project",
   "version": "1.0.0",
   "description": "Navigation bar with authentication",
-  "main": "script.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "SET node_env=production&& node ./src/index.js",
     "dev": "nodemon ./src/index.js"
