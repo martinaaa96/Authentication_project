@@ -4,6 +4,7 @@ const handlebars = require('express-handlebars');
 function setupViewEngine(app){
     app.engine('hbs',handlebars.engine({
         extname:'hbs',
+        defaultLayout: 'main'
 
     }));
 
