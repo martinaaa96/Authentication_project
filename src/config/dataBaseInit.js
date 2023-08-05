@@ -4,8 +4,9 @@ const config = require('./index');
 async function initDataBase(){
     mongoose.set('strictQuery', false);
 
-    await mongoose.connect(congif.DB_URI);
+    await mongoose.connect(config.DB_URI);
 
+    console.log('connected')
 
 }
 module.exports = initDataBase;
